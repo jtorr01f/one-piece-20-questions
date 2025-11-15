@@ -66,7 +66,7 @@
 
 .tab-group input:checked + label {
   border-color: transparent;
-  background-color: black;
+  background-color: rgb(255, 0, 0);
   color: white;
   scale: 1.1;
 }

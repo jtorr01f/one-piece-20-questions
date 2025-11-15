@@ -12,7 +12,7 @@
   line-height: normal;
   min-width: 0;
   outline: none;
-  padding: 10px;
+  padding: 16px;
   text-align: center;
   text-decoration: none;
   transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
@@ -27,7 +27,7 @@
 }
 
 .button:hover {
-  box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+  box-shadow: rgba(255, 0, 0, 0.25) 0 8px 15px;
   transform: translateY(-2px);
 }
 
@@ -45,19 +45,19 @@
 }
 
 .primary {
-  background-color: #5e5e5e;
+  background-color: #ff0000;
   color: white;
   transition: .2s;
 }
 .primary:hover {
-  background-color: #4a4a4a;
+  background-color: #b00000;
   transition: .2s;
 }
 
 .secondary {
   background-color: white;
-  border: 2px solid #1A1A1A;
-  color: #1A1A1A;
+  border: 2px solid #ff0000;
+  color: #ff0000;
   transition: .2s;
 }
 .secondary:hover {

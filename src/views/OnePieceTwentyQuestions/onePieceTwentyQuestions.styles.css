@@ -1,0 +1,219 @@
+.op-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+  height: 90vh;
+  width: 100vw;
+  border-radius: 8px;
+  overflow: scroll;
+  overscroll-behavior: none;
+}
+
+.op-header {
+  display: flex;
+  align-items: center;
+}
+
+.op-header-text {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.op-header-subtext {
+  margin-top: 1rem;
+}
+
+.op-button {
+  margin-bottom: 20px; 
+  background-color: grey; 
+  color: white; 
+  padding: 10px,
+}
+
+.op-button {
+  background-image: url('../../assets/straw-hat-pirates.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border: none;
+  border-radius: 100%;
+  padding: 80px 80px;
+  color: white;
+  cursor: pointer;
+  margin-top: 50px;
+  margin-bottom: 40px;
+  box-shadow: 0 9px #505050;
+}
+
+.op-button:active {
+  box-shadow: 0 5px #3d3d3d;
+  transform: translateY(4px);
+}
+
+.op-link-header {
+  margin-bottom: 1rem;
+}
+
+.op-link {
+  font-size: 16px;
+  font-weight: 900;
+  color: white;
+  text-decoration: underline;
+}
+
+.button-link {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.op-question {
+  margin-top: 5px;
+  width: 90%;
+  padding: 1.2rem;
+  border-radius: 8px;
+}
+
+.op-question-wrapper {
+  margin: 1rem 0 0 0;
+  width: 90vw;
+  padding: 1rem;
+}
+.op-list {
+  margin-top: .5rem;
+  border: white 1px solid;
+  border-radius: 8px;
+  height: 400px;
+}
+
+.op-list-item {
+  margin: .5rem 0;
+}
+
+.op-add-button {
+  margin-left: 5px;
+  padding: 8px;
+}
+
+.op-question-btn-group {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.op-clear-character {
+  margin: 16px;
+}
+
+.op-character-link-wrapper {
+  width: 400px;
+  min-height: 80px;
+  border: 1px solid white;
+  border-radius: 8px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.op-list-header {
+  display: flex;
+  align-items: center;
+  border-bottom: 1px white solid;
+}
+
+.op-list-items {
+  height: 350px;
+  overflow: scroll;
+}
+
+.op-list-header-question {
+  border-right: 1px white solid;
+  width: 75%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+}
+
+.op-list-header-answer {
+  width: 25%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+}
+
+.op-list-item-row {
+  border-bottom: 1px white solid;
+  display: flex;
+}
+
+.op-list-item-question {
+  border-right: 1px white solid;
+  width: 75%;
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  overflow: scroll;
+  text-wrap: noWrap;
+}
+
+.op-list-item-answer {
+  width: 25%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  overflow: scroll;
+}
+
+.yes {
+  background-color: rgb(90, 221, 90);
+}
+
+.no {
+  background-color: rgb(234, 113, 113);
+}
+
+.kinda {
+  background-color: #ef962b;
+}
+
+.inconclusive {
+  background-color: rgb(153, 198, 213);
+}
+
+.op-question-counter {
+  margin-top: 30px;
+  font-weight: 700;
+  display: flex;
+  align-items: end;
+  justify-content: start;
+}
+
+.link-hidden {
+  background-color: white;
+}
+
+.hide-icon {
+  margin-bottom: 10px;
+}
+
+.hide-icon:hover {
+  cursor: pointer;
+}
+
+.link-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.op-save-button {
+  padding: 20px;
+  margin-left: 5px;
+}

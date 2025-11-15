@@ -1,9 +1,9 @@
 'use client';
 import { FC } from "react";
 
-import { ButtonProps } from "@/src/types/components/button";
 
 import './button.styles.css';
+import { ButtonProps } from "@/types/components/button";
 
 export const Button: FC<ButtonProps> = ({ className, label, buttonType = 'primary', disabled, ...props }) => {
   return (

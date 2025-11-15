@@ -2,7 +2,7 @@
 
 import React from 'react';
 
-import { TextInputProps } from '@/src/types/components/textInput';
+import { TextInputProps } from '@/types/components/textInput';
 
 import './textInput.css';
 

@@ -1,6 +1,6 @@
 import { FC } from "react";
 
-import { RadioOptions } from "@/src/types/components/radioGroup";
+import { RadioOptions } from "@/types/components/radioGroup";
 
 import './radioGroup.styles.css';
 

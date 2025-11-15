@@ -2,7 +2,7 @@ import React, { FC, useState } from 'react';
 
 import { useClickOutside } from '../../hooks/useClickOutside';
 
-import { TooltipProps } from '@/src/types/components/toolTip';
+import { TooltipProps } from '@/types/components/toolTip';
 
 import './tooltip.styles.css';
 

@@ -1,6 +1,6 @@
 import React from "react";
 
-import { CheckboxProps } from "@/src/types/components/checkbox";
+import { CheckboxProps } from "@/types/components/checkbox";
 
 import './checkbox.styles.css';
 
